@@ -1,0 +1,35 @@
+.container2{
+   
+   border-style: solid;
+   display: flex;
+   max-width: 250px;
+   align-items: center;
+   justify-content: space-between;
+    border-color:#DBDBDB ;
+    width: 1439px;
+    align-items: center;
+    border-width: 0px 0px 1px 0px;
+    height: 88px;
+
+}
+
+.logo{
+    padding-left: 22px;
+}
+
+.Name{
+    width: 98px;
+height: 24px;
+margin-right: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #0D062D;
+}
+
+.doublearrow{
+    padding-right: 25px;
+}

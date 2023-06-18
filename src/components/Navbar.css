@@ -1,0 +1,94 @@
+.container{
+    position: fixed;
+    left: 249px ;
+    display: grid;
+    grid-template-columns: 5fr 4fr 2fr 4fr;
+    height: 88px;
+    border-style: solid;
+    border-color:#DBDBDB ;
+    width: 1439px;
+    align-items: center;
+    border-width: 0px 0px 1px 1px;
+
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    position: absolute;
+    left: 65.8px;
+
+    
+}
+
+.input{
+    padding-left: 54.8px;
+    margin-left: 49px;
+    width: 362.2px;
+    height: 44px;
+    display: flex;
+    background-color: #F5F5F5;
+    border-style: none;
+    border-radius: 6px;
+   
+}
+
+.box3{
+    display: flex;
+    width: 120px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 201px;
+    height: 39px;
+}
+
+.sub4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+color: #0D062D;
+}
+
+.location{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #787486;
+}
+
+.Profile{
+    width: 38px;
+    height: 38px;
+}
+
+.Arrow{
+    width: 18px;
+    height: 18px;
+}
