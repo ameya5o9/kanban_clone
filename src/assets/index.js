@@ -11,6 +11,12 @@ import Home from './Frame 12.png'
 import Tasks from './Frame 13.png'
 import Members from './Frame 14.png'
 import Settings from './Frame 15.png'
+import Green from './green.png'
+import Orange from './orange.png'
+import Purple from './purple.png'
+import Blue from './blue.png'
+import Add from './add.png'
+import Bulb from './bulb.png'
 export{
     Search, 
     Calender,
@@ -24,5 +30,11 @@ export{
     Home,
     Tasks,
     Members,
-    Settings
+    Settings,
+    Green,
+    Orange,
+    Purple,
+    Blue,
+    Add,
+    Bulb
 }

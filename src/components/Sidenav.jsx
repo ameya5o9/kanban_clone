@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidenav.css'
-import {Logo, Doublearrow, Home, Messages, Tasks, Members,Settings, Add, Green, Orange, Purple, Blue} from '../assets/index'
+import {Logo, Doublearrow, Home, Messages, Tasks, Members,Settings, Add, Green, Orange, Purple, Blue, Bulb} from '../assets/index'
 
 
 //defined everything in an [] as {}
@@ -40,7 +40,7 @@ const Sidenav = () => {
     </div>
 
     <div className="container4">
-        <div>
+        <div className='pro-heading'>
             <span>MY PROJECTS</span>
             <img src={Add} alt="" />
         </div>
@@ -48,17 +48,25 @@ const Sidenav = () => {
         <div>
             <ul>
                 {Projects.map((item, index)=>(
-                    <li key={index}>
-                        <img src={item.src} alt="" />
+                    <li key={index} className='project-list'>
+                        <img src={item.src} alt="" className='item-img'/>
                         <span>{item.title}</span>
                     </li>
                 ))}
             </ul>
         </div>
+    </div>
 
+    <div className="container5">
 
-
-
+        <div className='frame1'>
+            <img src={Bulb} alt="" className='bulb' />
+        </div>
+        <div className="frame2">
+            <div className='frame-box1'>Thoughts Time</div>
+            <div className='frame-box2'>We don’t have any notice for you, till then you can share your thoughts with your peers.</div>
+            <div className='frame-box3'>Write a message</div>
+        </div>
     </div>
 
     </div>
